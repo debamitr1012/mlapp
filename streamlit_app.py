@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('C:/Users/91983/mlapp/model.pkl', 'rb'))
 st.title('Placement Predictor')
 st.write('Enter the details below to predict your placement status.')
 cgpa = st.text_input('CGPA', '0')
